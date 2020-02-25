@@ -1,0 +1,92 @@
+html {
+	height: 100%;
+	overflow: auto;
+}
+
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	background: #19637d;
+}
+
+h1 {
+	padding: 0px;
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+	font-weight: normal;
+
+}
+
+.Header {
+	position: relative;
+	font-size: 20px;
+	font-weight: normal;
+
+}
+.Main {
+	width: 100%;
+	height: 100%;
+
+}
+.MessagesArea {
+	height: calc(100% - 102px);
+	width: 100%;
+	background-color: #212121;
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+.MessagesArea::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.Bot .chat-message {
+	margin: 10px 10px;
+	background-color: #0e1111;
+	max-width: calc(100% - 20px);
+	color: rgb(236, 236, 236);
+	padding: 7px;
+	font-size: 1em;
+	border-radius: 30px;
+	clear: both;
+	float: left;
+	word-wrap: break-word;
+}
+
+.Client .chat-message {
+	margin: 10px 10px;
+	background-color: #2aafb0;
+	max-width: calc(100% - 20px);
+	color: rgb(236, 236, 236);
+	padding: 7px;
+	font-size: 1em;
+	border-radius: 30px;
+	clear: both;
+	float: right;
+	word-wrap: break-word;
+}.MessageEntry {
+	padding: 5px;
+	margin: 10px;
+	font-size: 14px;
+	width: calc(100% - 30px);
+	border-radius: 5px;
+	border: 1px solid #212121;
+	background: #212121;
+	color: rgb(255, 255, 255);
+	font-family: 'Segoe UI';
+	font-weight: normal;
+	box-shadow: 0px 0px 4px 0px rgb(0, 0, 0);
+	text-align: center;
+}
+.Bottom {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+	border-top: 1px solid #19637d;
+	background: #19637d;
+	box-shadow: 0px 0px 15px 1px #0f0f0fe8;
+}
